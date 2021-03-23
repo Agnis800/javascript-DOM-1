@@ -15,3 +15,12 @@ window.addEventListener("load", function(){
   // 5. Also modify the DOM to hide the "More info..." link.
   
 });
+
+document.getElementById("more_text_link").addEventListener("click", function() {
+  if(more_text_link.clicked){
+    document.getElementById("more_text_content").style.display = "initial";
+  } else {
+    document.getElementById("more_text_content").style.display = "none";
+  }
+
+});
