@@ -16,11 +16,8 @@ window.addEventListener("load", function(){
   
 });
 
-document.getElementById("more_text_link").addEventListener("click", function() {
-  if(more_text_link.clicked){
-    document.getElementById("more_text_content").style.display = "initial";
-  } else {
-    document.getElementById("more_text_content").style.display = "none";
-  }
+document.getElementById("more_text_content").addEventListener("click", function(){
+  <span id="more_text_content" style="display: initial"></span>
+}
 
-});
+);
